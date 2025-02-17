@@ -1,0 +1,48 @@
+name: tic_tac_toe
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  archive: ^4.0.2
+  async: ^2.12.0
+  audioplayers: ^6.1.2
+  audioplayers_android: ^5.0.2
+  audioplayers_darwin: ^6.0.0
+  audioplayers_linux: ^4.0.1
+  audioplayers_platform_interface: ^7.0.0
+  audioplayers_web: ^5.0.1
+  audioplayers_windows: ^4.0.0
+  fake_async: ^1.3.2
+  flutter_launcher_icons: ^0.14.3
+  image: ^4.5.2
+  js: ^0.7.2
+  leak_tracker: ^10.0.8
+  lottie: ^3.3.1
+  material_color_utilities: ^0.11.1
+  vm_service: ^14.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/tic-tac-toe.png"
+
+flutter:
+  assets:
+    - assets/animations/win-AM.json
+    - assets/animations/match-draw-AM.json
+    - assets/sounds/click-button.mp3
+    - assets/sounds/game-start.mp3
+    - assets/sounds/win-sound.mp3
+    - assets/sounds/match-draw.mp3
+  uses-material-design: true
